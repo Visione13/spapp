@@ -28,7 +28,11 @@ class MyApp extends StatelessWidget {
         //
         // This works for code too, not just values: Most code changes can be
         // tested with just a hot reload.
+<<<<<<< HEAD
         colorScheme: ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 250, 25, 9)),
+=======
+        colorScheme: ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 35, 14, 156)),
+>>>>>>> main
         useMaterial3: true,
       ),
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
