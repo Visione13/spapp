@@ -9,6 +9,7 @@ class MyAppBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+<<<<<<< HEAD
     return Container(
       height: 56,
       padding: const EdgeInsets.symmetric(horizontal: 8),
@@ -29,6 +30,13 @@ class MyAppBar extends StatelessWidget {
             onPressed: null,
           ),
         ],
+=======
+    return MaterialApp(
+      title: 'Flutter Demo',
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 238, 4, 4)),
+        useMaterial3: true,
+>>>>>>> main
       ),
     );
   }
